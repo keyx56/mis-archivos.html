@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background-image: url('https://wallpapers.com/images/hd/fondomorado-claro-y-corazones-wt1nkzy5967krmkf.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        .buttons {
+            display: flex;
+            gap: 20px;
+        }
+        button {
+            font-size: 1.2rem;
+            padding: 10px 20px;
+            background-color: #ff4081;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #e91e63;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mi Página Especial</h1>
+    <div class="buttons">
+        <!-- Redirige a la página de la carta -->
+        <button onclick="window.location.href='carta.html'">Ver Carta</button>
+        <!-- Redirige a otra sección -->
+        <button onclick="window.location.href='seccion2.html'">Ir a la Sección 2</button>
+    </div>
+</body>
+</html>
